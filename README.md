@@ -1,6 +1,6 @@
 # 💫 About Me:
 ### 👋 About Me<br>I'm a Computer Science student from the Philippines with a passion for solving <br>problems through curiosity and dedication. I enjoy exploring new technologies, <br>building projects that challenge me, and continuously learning to sharpen my <br>skills. My goal is to create solutions that are not only functional but also <br>meaningful and impactful.
-
+<img align="right" height="150" src="https://giffiles.alphacoders.com/163/163814.gif"  />
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/john-jessienel-arquesola-96231735b) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/24706411) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:cocoasaurjl) 
