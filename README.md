@@ -1,15 +1,15 @@
 # 💫 About Me:
 
 <div style="display: flex; align-items: flex-start; gap: 20px;">
-  <div style="flex: 1; font-size: 1.1rem; line-height: 1.6;">
+  <img src="https://giffiles.alphacoders.com/163/163814.gif" align="right" height="180" alt="Kirby gif" style="margin-left: 20px;"/>
+  <div style="flex: 1 1; font-size: 1.4rem; line-height: 1.6;">
     <h3>👋 About Me</h3>
     <p>
-      I'm a Computer Science student from the Philippines with a passion for solving problems through curiosity and dedication.<br><br>
-      I enjoy exploring new technologies, building projects that challenge me, and continuously learning to sharpen my skills.<br><br>
-      My goal is to create solutions that are not only functional but also meaningful and impactful.
+      &nbsp;&nbsp;&nbsp;&nbsp;I'm a Computer Science student from the Philippines driven by curiosity and dedication to solving real-world problems.
+      I enjoy exploring new technologies, building projects that challenge me, and continuously learning to grow as a developer.
+      My goal is to craft solutions that are not only functional, but also meaningful and impactful.
     </p>
   </div>
-  <img src="https://giffiles.alphacoders.com/163/163814.gif" height="180" alt="Kirby gif" />
 </div>
 
 ## 🌐 Socials:
