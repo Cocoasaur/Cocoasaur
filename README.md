@@ -1,7 +1,7 @@
 # 💫 About Me:
 
 <div style="display: flex; align-items: flex-start; gap: 20px;">
-  <img src="https://giffiles.alphacoders.com/163/163814.gif" align="right" height="170" alt="Kirby gif" style="margin-left: 5px;"/>
+  <img src="https://giffiles.alphacoders.com/163/163814.gif" align="right" height="170" alt="Kirby gif" style="margin-left: 25px;"/>
   <div style="flex: 1 1; font-size: 1.4rem; line-height: 1.6;">
     <h3>👋 About Me</h3>
     <p>
