@@ -12,9 +12,10 @@ Driven by curiosity and a dedication to solving real-world problems — explorin
 
 </div>
 
-## About Me
-
 <table>
+  <tr>
+    <th colspan="2" align="center"><h3>Introduction</h3></th>
+  </tr>
   <tr>
     <td width="70%">
       I'm a Computer Science student from the Philippines, driven by curiosity and dedication to solving real-world problems.
@@ -25,101 +26,106 @@ Driven by curiosity and a dedication to solving real-world problems — explorin
       <img src="https://giffiles.alphacoders.com/163/163814.gif" alt="Kirby gif" height="170"/>
     </td>
   </tr>
+  <tr>
+    <th colspan="2" align="center"><h3>Tech Stack</h3></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <table>
+        <tr>
+          <td><h4><code>Languages</code></h4></td>
+          <td>
+            <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript"/>
+            <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white" alt="Java"/>
+            <img src="https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54" alt="Python"/>
+            <img src="https://img.shields.io/badge/php-%23777BB4.svg?style=flat&logo=php&logoColor=white" alt="PHP"/>
+          </td>
+        </tr>
+        <tr>
+          <td><h4><code>Frontend</code></h4></td>
+          <td>
+            <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white" alt="HTML5"/>
+            <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white" alt="CSS3"/>
+            <img src="https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB" alt="React"/>
+            <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=flat&logo=vite&logoColor=white" alt="Vite"/>
+          </td>
+        </tr>
+        <tr>
+          <td><h4><code>Databases</code></h4></td>
+          <td>
+            <img src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=flat&logo=sqlite&logoColor=white" alt="SQLite"/>
+            <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=flat&logo=mysql&logoColor=white" alt="MySQL"/>
+          </td>
+        </tr>
+        <tr>
+          <td><h4><code>Data & AI</code></h4></td>
+          <td>
+            <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white" alt="NumPy"/>
+            <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white" alt="Pandas"/>
+            <img src="https://img.shields.io/badge/SciPy-%230C55A5.svg?style=flat&logo=scipy&logoColor=%white" alt="SciPy"/>
+            <img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=flat&logo=Matplotlib&logoColor=black" alt="Matplotlib"/>
+          </td>
+        </tr>
+        <tr>
+          <td><h4><code>Design</code></h4></td>
+          <td>
+            <img src="https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=flat&logo=adobe%20photoshop&logoColor=white" alt="Adobe Photoshop"/>
+            <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white" alt="Figma"/>
+            <img src="https://img.shields.io/badge/Gimp-657D8B?style=flat&logo=gimp&logoColor=FFFFFF" alt="Gimp"/>
+            <img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=flat&logo=Canva&logoColor=white" alt="Canva"/>
+          </td>
+        </tr>
+        <tr>
+          <td><h4><code>Tools</code></h4></td>
+          <td>
+            <img src="https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white" alt="Git"/>
+            <img src="https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white" alt="GitHub"/>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <th colspan="2" align="center"><h3>GitHub Analytics</h3></th>
+  </tr>
+  <tr>
+    <th align="center">Contribution Calendar</th>
+    <th align="center">Most Used Languages</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <details open><summary>Full year calendar</summary><picture>
+        <source media="(prefers-color-scheme: dark)" srcset="metrics.plugin.isocalendar.fullyear.dark.svg"/>
+        <img alt="Contribution Calendar" width="400" src="metrics.plugin.isocalendar.fullyear.svg"/>
+      </picture></details>
+      <img width="900" height="1" alt="">
+    </td>
+    <td align="center">
+      <details open><summary>Languages activity</summary><img alt="Most Used Languages" width="400" src="profile-3d-contrib/profile-languages.svg"/></details>
+      <img width="900" height="1" alt="">
+    </td>
+  </tr>
+  <tr>
+    <th align="center">Achievements</th>
+    <th align="center">Notable Contributions</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <details open><summary>GitHub achievements</summary><picture>
+        <source media="(prefers-color-scheme: dark)" srcset="metrics.plugin.achievements.dark.svg"/>
+        <img alt="GitHub Achievements" width="400" src="metrics.plugin.achievements.svg"/>
+      </picture></details>
+      <img width="900" height="1" alt="">
+    </td>
+    <td align="center">
+      <details open><summary>Contributions on repositories</summary><picture>
+        <source media="(prefers-color-scheme: dark)" srcset="metrics.plugin.notable.dark.svg"/>
+        <img alt="Notable Contributions" width="400" src="metrics.plugin.notable.svg"/>
+      </picture></details>
+      <img width="900" height="1" alt="">
+    </td>
+  </tr>
 </table>
-
-## Tech Stack
-
-<table>
-  <tr>
-    <th>Languages</th>
-    <td>
-      <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript"/>
-      <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white" alt="Java"/>
-      <img src="https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54" alt="Python"/>
-      <img src="https://img.shields.io/badge/php-%23777BB4.svg?style=flat&logo=php&logoColor=white" alt="PHP"/>
-    </td>
-  </tr>
-  <tr>
-    <th>Frontend</th>
-    <td>
-      <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white" alt="HTML5"/>
-      <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white" alt="CSS3"/>
-      <img src="https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB" alt="React"/>
-      <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=flat&logo=vite&logoColor=white" alt="Vite"/>
-    </td>
-  </tr>
-  <tr>
-    <th>Databases</th>
-    <td>
-      <img src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=flat&logo=sqlite&logoColor=white" alt="SQLite"/>
-      <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=flat&logo=mysql&logoColor=white" alt="MySQL"/>
-    </td>
-  </tr>
-  <tr>
-    <th>Data & AI</th>
-    <td>
-      <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white" alt="NumPy"/>
-      <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white" alt="Pandas"/>
-      <img src="https://img.shields.io/badge/SciPy-%230C55A5.svg?style=flat&logo=scipy&logoColor=%white" alt="SciPy"/>
-      <img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=flat&logo=Matplotlib&logoColor=black" alt="Matplotlib"/>
-    </td>
-  </tr>
-  <tr>
-    <th>Design</th>
-    <td>
-      <img src="https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=flat&logo=adobe%20photoshop&logoColor=white" alt="Adobe Photoshop"/>
-      <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white" alt="Figma"/>
-      <img src="https://img.shields.io/badge/Gimp-657D8B?style=flat&logo=gimp&logoColor=FFFFFF" alt="Gimp"/>
-      <img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=flat&logo=Canva&logoColor=white" alt="Canva"/>
-    </td>
-  </tr>
-  <tr>
-    <th>Tools</th>
-    <td>
-      <img src="https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white" alt="Git"/>
-      <img src="https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white" alt="GitHub"/>
-    </td>
-  </tr>
-</table>
-
-## GitHub Stats
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Cocoasaur&theme=dark&hide_border=false&include_all_commits=false&count_private=false"/>
-  <img src="https://github-readme-stats.vercel.app/api?username=Cocoasaur&theme=calm&hide_border=false&include_all_commits=false&count_private=false" alt="GitHub Stats"/>
-</picture>
-<br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://nirzak-streak-stats.vercel.app/?user=Cocoasaur&theme=dark&hide_border=false"/>
-  <img src="https://nirzak-streak-stats.vercel.app/?user=Cocoasaur&theme=calm&hide_border=false" alt="GitHub Streak"/>
-</picture>
-<br/>
-
-### Contribution Calendar
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="metrics.plugin.isocalendar.fullyear.dark.svg"/>
-  <img src="metrics.plugin.isocalendar.fullyear.svg" alt="3D Contribution Calendar"/>
-</picture>
-
-### Most Used Languages
-
-<img src="profile-3d-contrib/profile-languages.svg" alt="Most Used Languages"/>
-
-## Achievements
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="metrics.plugin.achievements.dark.svg"/>
-  <img src="metrics.plugin.achievements.svg" alt="GitHub Achievements"/>
-</picture>
-
-## Notable Contributions
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="metrics.plugin.notable.dark.svg"/>
-  <img src="metrics.plugin.notable.svg" alt="Notable Contributions"/>
-</picture>
 
 ---
 
