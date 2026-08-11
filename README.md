@@ -20,7 +20,8 @@
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=Cocoasaur&theme=calm&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=Cocoasaur&theme=calm&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Cocoasaur&theme=calm&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+![3D Contribution Calendar](metrics.plugin.isocalendar.fullyear.svg)<br/>
+![Languages](profile-3d-contrib/profile-languages.svg)
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=Cocoasaur&theme=radical&no-frame=false&no-bg=false&margin-w=4)
