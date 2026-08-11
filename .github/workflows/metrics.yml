@@ -120,7 +120,8 @@ jobs:
       # X includes locked badges, so the card is informative even before an achievement is unlocked.
       - uses: gh-metrics/metrics@master
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          # A user token permits the Gist query GitHub blocks for the Actions integration.
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           filename: metrics.plugin.achievements.svg
           base: ""
           plugin_achievements: yes
