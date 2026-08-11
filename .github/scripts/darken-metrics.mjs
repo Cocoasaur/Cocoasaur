@@ -25,16 +25,19 @@ const PALETTE = {
 }
 
 const FILES = [
+  "metrics.base.svg",
   "metrics.plugin.isocalendar.fullyear.svg",
   "metrics.plugin.achievements.svg",
-  "metrics.plugin.notable.svg",
-  "metrics.plugin.habits.charts.svg",
+  "metrics.plugin.habits.svg",
   "metrics.plugin.people.svg",
   "metrics.plugin.reactions.svg",
   "metrics.plugin.discussions.svg",
-  "metrics.plugin.introduction.svg",
   "metrics.plugin.languages.svg",
-  "metrics.plugin.poopmap.svg"
+  "metrics.plugin.stars.svg",
+  "metrics.plugin.repositories.svg",
+  "metrics.plugin.starlists.svg",
+  "metrics.plugin.activity.svg",
+  "metrics.plugin.traffic.svg"
 ]
 
 for (const file of FILES) {
