@@ -107,15 +107,18 @@ Driven by curiosity and a dedication to solving real-world problems — explorin
 
 <img src="profile-3d-contrib/profile-languages.svg" alt="Most Used Languages"/>
 
-## GitHub Trophies
-
-<img src="https://github-profile-trophy.vercel.app/?username=Cocoasaur&theme=radical&no-frame=false&no-bg=false&margin-w=4" alt="GitHub Trophies"/>
-
-## Top Contributed Repos
+## Achievements
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-contributor-stats.vercel.app/api?username=Cocoasaur&limit=5&theme=dark&combine_all_yearly_contributions=true"/>
-  <img src="https://github-contributor-stats.vercel.app/api?username=Cocoasaur&limit=5&theme=calm&combine_all_yearly_contributions=true" alt="Top Contributed Repos"/>
+  <source media="(prefers-color-scheme: dark)" srcset="metrics.plugin.achievements.dark.svg"/>
+  <img src="metrics.plugin.achievements.svg" alt="GitHub Achievements"/>
+</picture>
+
+## Notable Contributions
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="metrics.plugin.notable.dark.svg"/>
+  <img src="metrics.plugin.notable.svg" alt="Notable Contributions"/>
 </picture>
 
 ---

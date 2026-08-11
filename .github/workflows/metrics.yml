@@ -23,10 +23,24 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           output_action: none
-      - name: Copy render and generate dark variant
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          filename: metrics.plugin.achievements.svg
+          base: ""
+          plugin_achievements: yes
+          output_action: none
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          filename: metrics.plugin.notable.svg
+          base: ""
+          plugin_notable: yes
+          output_action: none
+      - name: Copy renders and generate dark variants
         run: |
-          cp /metrics_renders/metrics.plugin.isocalendar.fullyear.svg metrics.plugin.isocalendar.fullyear.svg
-          node .github/scripts/darken-isocalendar.mjs
+          cp /metrics_renders/*.svg .
+          node .github/scripts/darken-metrics.mjs
       - name: Commit & Push
         run: |
           git config user.name github-actions
