@@ -14,7 +14,7 @@ Driven by curiosity and a dedication to solving real-world problems — explorin
 
 <table>
   <tr>
-    <th colspan="2" align="center"><h3>Introduction</h3></th>
+    <th colspan="2" align="center"><h3>About Me</h3></th>
   </tr>
   <tr>
     <td width="70%">
@@ -90,7 +90,7 @@ Driven by curiosity and a dedication to solving real-world problems — explorin
   </tr>
   <tr>
     <th align="center">Contribution Calendar</th>
-    <th align="center">Most Used Languages</th>
+    <th align="center">Coding Habits and Activity</th>
   </tr>
   <tr>
     <td align="center">
@@ -101,15 +101,25 @@ Driven by curiosity and a dedication to solving real-world problems — explorin
       <img width="900" height="1" alt="">
     </td>
     <td align="center">
-      <details open><summary>Languages activity</summary><img alt="Most Used Languages" width="400" src="profile-3d-contrib/profile-languages.svg"/></details>
+      <details open><summary>Recent activity charts</summary><picture>
+        <source media="(prefers-color-scheme: dark)" srcset="metrics.plugin.habits.charts.dark.svg"/>
+        <img alt="Coding Habits" width="400" src="metrics.plugin.habits.charts.svg"/>
+      </picture></details>
       <img width="900" height="1" alt="">
     </td>
   </tr>
   <tr>
+    <th align="center">Languages Activity</th>
     <th align="center">Achievements</th>
-    <th align="center">Notable Contributions</th>
   </tr>
   <tr>
+    <td align="center">
+      <details open><summary>Most used languages</summary><picture>
+        <source media="(prefers-color-scheme: dark)" srcset="metrics.plugin.languages.dark.svg"/>
+        <img alt="Languages Activity" width="400" src="metrics.plugin.languages.svg"/>
+      </picture></details>
+      <img width="900" height="1" alt="">
+    </td>
     <td align="center">
       <details open><summary>GitHub achievements</summary><picture>
         <source media="(prefers-color-scheme: dark)" srcset="metrics.plugin.achievements.dark.svg"/>
@@ -117,10 +127,63 @@ Driven by curiosity and a dedication to solving real-world problems — explorin
       </picture></details>
       <img width="900" height="1" alt="">
     </td>
+  </tr>
+  <tr>
+    <th align="center">Notable Contributions</th>
+    <th align="center">People</th>
+  </tr>
+  <tr>
     <td align="center">
       <details open><summary>Contributions on repositories</summary><picture>
         <source media="(prefers-color-scheme: dark)" srcset="metrics.plugin.notable.dark.svg"/>
         <img alt="Notable Contributions" width="400" src="metrics.plugin.notable.svg"/>
+      </picture></details>
+      <img width="900" height="1" alt="">
+    </td>
+    <td align="center">
+      <details open><summary>Followers</summary><picture>
+        <source media="(prefers-color-scheme: dark)" srcset="metrics.plugin.people.dark.svg"/>
+        <img alt="People" width="400" src="metrics.plugin.people.svg"/>
+      </picture></details>
+      <img width="900" height="1" alt="">
+    </td>
+  </tr>
+  <tr>
+    <th align="center">Comment Reactions</th>
+    <th align="center">Discussions</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <details open><summary>Reactions on your comments</summary><picture>
+        <source media="(prefers-color-scheme: dark)" srcset="metrics.plugin.reactions.dark.svg"/>
+        <img alt="Comment Reactions" width="400" src="metrics.plugin.reactions.svg"/>
+      </picture></details>
+      <img width="900" height="1" alt="">
+    </td>
+    <td align="center">
+      <details open><summary>Discussions activity</summary><picture>
+        <source media="(prefers-color-scheme: dark)" srcset="metrics.plugin.discussions.dark.svg"/>
+        <img alt="Discussions" width="400" src="metrics.plugin.discussions.svg"/>
+      </picture></details>
+      <img width="900" height="1" alt="">
+    </td>
+  </tr>
+  <tr>
+    <th align="center">Introduction</th>
+    <th align="center">Poop Map</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <details open><summary>About me</summary><picture>
+        <source media="(prefers-color-scheme: dark)" srcset="metrics.plugin.introduction.dark.svg"/>
+        <img alt="Introduction" width="400" src="metrics.plugin.introduction.svg"/>
+      </picture></details>
+      <img width="900" height="1" alt="">
+    </td>
+    <td align="center">
+      <details open><summary>Poops per hour of day</summary><picture>
+        <source media="(prefers-color-scheme: dark)" srcset="metrics.plugin.poopmap.dark.svg"/>
+        <img alt="Poop Map" width="400" src="metrics.plugin.poopmap.svg"/>
       </picture></details>
       <img width="900" height="1" alt="">
     </td>
