@@ -4,7 +4,7 @@
 
 **Computer Science Student · Philippines**
 
-Driven by curiosity and a dedication to solving real-world problems — exploring new technologies, building challenging projects, and continuously learning to grow as a developer.
+Driven by curiosity and a dedication to solving real-world problems, exploring new technologies, building challenging projects, and continuously learning to grow as a developer.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/john-jessienel-arquesola-96231735b)
 [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/24706411)
@@ -30,7 +30,7 @@ Driven by curiosity and a dedication to solving real-world problems — explorin
 </div>
 
 <p align="center">
-  <img align="right" height="170" src="https://giffiles.alphacoders.com/163/163814.gif" alt="Kirby gif"/>I'm a Computer Science student from the Philippines, driven by curiosity and dedication to solving real-world problems. I enjoy exploring new technologies, building projects that challenge me, and continuously learning to grow as a developer. My goal is to craft solutions that are not only functional, but also meaningful and impactful.
+  <img align="right" height="10" src="https://giffiles.alphacoders.com/163/163814.gif" alt="Kirby gif"/><small>I'm a Computer Science student from the Philippines, driven by curiosity and dedication to solving real-world problems. I enjoy exploring new technologies, building projects that challenge me, and continuously learning to grow as a developer. My goal is to craft solutions that are not only functional, but also meaningful and impactful.</small>
 </p>
 
 <div align="center">
