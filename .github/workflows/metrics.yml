@@ -16,6 +16,14 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
+      # Achievements and traffic cards require a user token; fail loudly instead of
+      # silently rendering "Unexpected error" cards when it is missing.
+      - name: Check METRICS_TOKEN
+        if: ${{ secrets.METRICS_TOKEN == '' }}
+        run: |
+          echo "::error::METRICS_TOKEN secret is required for achievements and traffic cards"
+          exit 1
+
       # Base account card: header, community, and repository statistics.
       - uses: gh-metrics/metrics@master
         with:
@@ -121,7 +129,7 @@ jobs:
       - uses: gh-metrics/metrics@master
         with:
           # A user token permits the Gist query GitHub blocks for the Actions integration.
-          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics.plugin.achievements.svg
           base: ""
           plugin_achievements: yes
@@ -141,8 +149,8 @@ jobs:
 
       - uses: gh-metrics/metrics@master
         with:
-          # Repository traffic requires a user token; it falls back until METRICS_TOKEN is added.
-          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          # Repository traffic requires a user token.
+          token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics.plugin.traffic.svg
           base: repositories
           plugin_traffic: yes
