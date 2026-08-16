@@ -81,8 +81,8 @@ Curious about technology, committed to meaningful problem-solving, and always le
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="metrics.plugin.achievements.dark.svg" />
-    <img alt="GitHub achievements" width="412" src="metrics.plugin.achievements.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="metrics.plugin.activity.dark.svg" />
+    <img alt="Recent GitHub activity" width="412" src="metrics.plugin.activity.svg" />
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="metrics.plugin.stars.dark.svg" />
@@ -92,7 +92,7 @@ Curious about technology, committed to meaningful problem-solving, and always le
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="metrics.plugin.activity.dark.svg" />
-    <img alt="Recent GitHub activity" width="412" src="metrics.plugin.activity.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="metrics.plugin.achievements.dark.svg" />
+    <img alt="GitHub achievements" width="824" src="metrics.plugin.achievements.svg" />
   </picture>
 </p>
