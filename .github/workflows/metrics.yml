@@ -13,13 +13,16 @@ permissions:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    env:
+      # Job-level env is the only way to test a secret in an `if:` condition.
+      METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
     steps:
       - uses: actions/checkout@v5
 
       # Achievements and traffic cards require a user token; fail loudly instead of
       # silently rendering "Unexpected error" cards when it is missing.
       - name: Check METRICS_TOKEN
-        if: ${{ secrets.METRICS_TOKEN == '' }}
+        if: ${{ env.METRICS_TOKEN == '' }}
         run: |
           echo "::error::METRICS_TOKEN secret is required for achievements and traffic cards"
           exit 1
