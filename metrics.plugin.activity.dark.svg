@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="445" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="428" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#8b949e}h2{margin:8px 0 2px;padding:0;color:#58a6ff;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#8b949e;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#8b949e1F;padding:1px 5px;font-size:80%;border-radius:6px;color:#8b949e;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}code{background-color:#8b949e1F;display:inline-block;border-radius:6px;color:#8b949e;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#161b22;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#0e4429;--color-calendar-graph-day-L2-bg:#006d32;--color-calendar-graph-day-L3-bg:#26a641;--color-calendar-graph-day-L4-bg:#39d353;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#e6edf3;--color-calendar-winter-graph-day-L1-bg:#1f6feb;--color-calendar-winter-graph-day-L2-bg:#58a6ff;--color-calendar-winter-graph-day-L3-bg:#79c0ff;--color-calendar-winter-graph-day-L4-bg:#1f6feb;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#8b949e}h2{margin:8px 0 2px;padding:0;color:#58a6ff;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#8b949e;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#8b949e1F;padding:1px 5px;font-size:80%;border-radius:6px;color:#8b949e;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}code{background-color:#8b949e1F;display:inline-block;border-radius:6px;color:#8b949e;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#161b22;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#0e4429;--color-calendar-graph-day-L2-bg:#006d32;--color-calendar-graph-day-L3-bg:#26a641;--color-calendar-graph-day-L4-bg:#39d353;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#e6edf3;--color-calendar-winter-graph-day-L1-bg:#1f6feb;--color-calendar-winter-graph-day-L2-bg:#58a6ff;--color-calendar-winter-graph-day-L3-bg:#79c0ff;--color-calendar-winter-graph-day-L4-bg:#1f6feb;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -19,21 +19,18 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                        <path d="M11.28 6.78a.75.75 0 00-1.06-1.06L7.25 8.69 5.78 7.22a.75.75 0 00-1.06 1.06l2 2a.75.75 0 001.06 0l3.5-3.5z"/>
+                                        <path fill-rule="evenodd" d="M16 8A8 8 0 110 8a8 8 0 0116 0zm-1.5 0a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z"/>
                                     </svg>
                                     <div class="content">
-                                        Pushed  commits in
-                                        <span class="repo">Cocoasaur/Cocoasaur</span>
+                                        Closed
+                                        <span class="issue">#7 Parallax Effect on Tablet Mobile viewports</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#679537e</div>
-                                        <div class="message"></div>
-                                    </div>
+                                    <div>opened  in <span class="repo">Cocoasaur/DinoWeb</span></div>
                                 </div>
-                                <div class="timestamp">16 Aug 2026, 07:46:01</div>
+                                <div class="timestamp">17 Aug 2026, 16:46:09</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -44,17 +41,17 @@
                                     </svg>
                                     <div class="content">
                                         Pushed  commits in
-                                        <span class="repo">Cocoasaur/Cocoasaur</span>
+                                        <span class="repo">Cocoasaur/DinoWeb</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
+                                    <div>on branch <span class="code">gh-pages</span></div>
                                     <div class="commit">
-                                        <div class="sha">#f18cbed</div>
+                                        <div class="sha">#f080a90</div>
                                         <div class="message"></div>
                                     </div>
                                 </div>
-                                <div class="timestamp">16 Aug 2026, 07:44:24</div>
+                                <div class="timestamp">17 Aug 2026, 16:45:29</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -65,17 +62,17 @@
                                     </svg>
                                     <div class="content">
                                         Pushed  commits in
-                                        <span class="repo">Cocoasaur/Cocoasaur</span>
+                                        <span class="repo">Cocoasaur/DinoWeb</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#8bbe445</div>
+                                        <div class="sha">#9acde3a</div>
                                         <div class="message"></div>
                                     </div>
                                 </div>
-                                <div class="timestamp">16 Aug 2026, 07:42:18</div>
+                                <div class="timestamp">17 Aug 2026, 16:45:03</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -86,17 +83,17 @@
                                     </svg>
                                     <div class="content">
                                         Pushed  commits in
-                                        <span class="repo">Cocoasaur/Cocoasaur</span>
+                                        <span class="repo">Cocoasaur/DinoWeb</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
+                                    <div>on branch <span class="code">gh-pages</span></div>
                                     <div class="commit">
-                                        <div class="sha">#3e1bc91</div>
+                                        <div class="sha">#c512941</div>
                                         <div class="message"></div>
                                     </div>
                                 </div>
-                                <div class="timestamp">16 Aug 2026, 06:47:13</div>
+                                <div class="timestamp">17 Aug 2026, 16:27:51</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -107,17 +104,17 @@
                                     </svg>
                                     <div class="content">
                                         Pushed  commits in
-                                        <span class="repo">Cocoasaur/Cocoasaur</span>
+                                        <span class="repo">Cocoasaur/DinoWeb</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#8d96ef2</div>
+                                        <div class="sha">#863df7f</div>
                                         <div class="message"></div>
                                     </div>
                                 </div>
-                                <div class="timestamp">16 Aug 2026, 06:35:43</div>
+                                <div class="timestamp">17 Aug 2026, 16:27:40</div>
                             </section>
                         </div>
                     </section>
