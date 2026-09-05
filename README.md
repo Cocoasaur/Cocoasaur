@@ -2,7 +2,7 @@
 
 # Cocoasaur
 
-**Computer Science Student · Philippines · Linux Enthusiast**
+**Computer Science Student · Linux Enthusiast**
 
 Curious about technology, committed to meaningful problem-solving, and always learning.
 
