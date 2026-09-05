@@ -28,14 +28,16 @@ jobs:
           exit 1
 
       # Base account card: header, community, and repository statistics.
-      - uses: lowlighter/metrics@v3.34
+      # Exact maintenance-fork revision: includes current GitHub API compatibility fixes.
+      - uses: gh-metrics/metrics@4bec7bde733c1dd3c5139ce2146d94a34ae62096
         with:
           token: ${{ env.METRICS_TOKEN }}
           filename: metrics.base.svg
           base: header, community, repositories
           output_action: none
+          plugins_errors_fatal: yes
 
-      - uses: lowlighter/metrics@v3.34
+      - uses: gh-metrics/metrics@4bec7bde733c1dd3c5139ce2146d94a34ae62096
         with:
           token: ${{ env.METRICS_TOKEN }}
           filename: metrics.plugin.isocalendar.fullyear.svg
@@ -43,9 +45,10 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           output_action: none
+          plugins_errors_fatal: yes
 
       # Language analysis reads the token owner's events, so it needs the user token.
-      - uses: lowlighter/metrics@v3.34
+      - uses: gh-metrics/metrics@4bec7bde733c1dd3c5139ce2146d94a34ae62096
         with:
           token: ${{ env.METRICS_TOKEN }}
           filename: metrics.plugin.languages.svg
@@ -57,8 +60,9 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_analysis_timeout: 15
           output_action: none
+          plugins_errors_fatal: yes
 
-      - uses: lowlighter/metrics@v3.34
+      - uses: gh-metrics/metrics@4bec7bde733c1dd3c5139ce2146d94a34ae62096
         with:
           token: ${{ env.METRICS_TOKEN }}
           filename: metrics.plugin.stars.svg
@@ -66,8 +70,9 @@ jobs:
           plugin_stars: yes
           plugin_stars_limit: 4
           output_action: none
+          plugins_errors_fatal: yes
 
-      - uses: lowlighter/metrics@v3.34
+      - uses: gh-metrics/metrics@4bec7bde733c1dd3c5139ce2146d94a34ae62096
         with:
           token: ${{ env.METRICS_TOKEN }}
           filename: metrics.plugin.habits.svg
@@ -78,8 +83,9 @@ jobs:
           plugin_habits_from: 200
           config_timezone: Asia/Manila
           output_action: none
+          plugins_errors_fatal: yes
 
-      - uses: lowlighter/metrics@v3.34
+      - uses: gh-metrics/metrics@4bec7bde733c1dd3c5139ce2146d94a34ae62096
         with:
           token: ${{ env.METRICS_TOKEN }}
           filename: metrics.plugin.people.svg
@@ -88,8 +94,9 @@ jobs:
           plugin_people_types: followers, following
           plugin_people_limit: 24
           output_action: none
+          plugins_errors_fatal: yes
 
-      - uses: lowlighter/metrics@v3.34
+      - uses: gh-metrics/metrics@4bec7bde733c1dd3c5139ce2146d94a34ae62096
         with:
           token: ${{ env.METRICS_TOKEN }}
           filename: metrics.plugin.reactions.svg
@@ -98,8 +105,9 @@ jobs:
           plugin_reactions_limit: 100
           plugin_reactions_details: percentage
           output_action: none
+          plugins_errors_fatal: yes
 
-      - uses: lowlighter/metrics@v3.34
+      - uses: gh-metrics/metrics@4bec7bde733c1dd3c5139ce2146d94a34ae62096
         with:
           token: ${{ env.METRICS_TOKEN }}
           filename: metrics.plugin.repositories.svg
@@ -107,9 +115,10 @@ jobs:
           plugin_repositories: yes
           plugin_repositories_pinned: 4
           output_action: none
+          plugins_errors_fatal: yes
 
       # X includes locked badges, so the card is informative even before an achievement is unlocked.
-      - uses: lowlighter/metrics@v3.34
+      - uses: gh-metrics/metrics@4bec7bde733c1dd3c5139ce2146d94a34ae62096
         with:
           # A user token permits the Gist query GitHub blocks for the Actions integration.
           token: ${{ env.METRICS_TOKEN }}
@@ -119,8 +128,9 @@ jobs:
           plugin_achievements_display: compact
           plugin_achievements_threshold: X
           output_action: none
+          plugins_errors_fatal: yes
 
-      - uses: lowlighter/metrics@v3.34
+      - uses: gh-metrics/metrics@4bec7bde733c1dd3c5139ce2146d94a34ae62096
         with:
           token: ${{ env.METRICS_TOKEN }}
           filename: metrics.plugin.activity.svg
@@ -129,8 +139,9 @@ jobs:
           plugin_activity_limit: 5
           plugin_activity_timestamps: yes
           output_action: none
+          plugins_errors_fatal: yes
 
-      - uses: lowlighter/metrics@v3.34
+      - uses: gh-metrics/metrics@4bec7bde733c1dd3c5139ce2146d94a34ae62096
         with:
           # Repository traffic requires a user token.
           token: ${{ env.METRICS_TOKEN }}
@@ -138,6 +149,7 @@ jobs:
           base: repositories
           plugin_traffic: yes
           output_action: none
+          plugins_errors_fatal: yes
 
       - name: Copy renders and generate dark variants
         run: |
