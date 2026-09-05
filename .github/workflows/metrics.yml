@@ -19,25 +19,25 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      # Achievements and traffic cards require a user token; fail loudly instead of
-      # silently rendering "Unexpected error" cards when it is missing.
+      # Metrics queries account-level data that the repository-scoped GITHUB_TOKEN
+      # cannot access. Fail early when the user token is unavailable.
       - name: Check METRICS_TOKEN
         if: ${{ env.METRICS_TOKEN == '' }}
         run: |
-          echo "::error::METRICS_TOKEN secret is required for achievements and traffic cards"
+          echo "::error::METRICS_TOKEN secret is required to generate account metrics"
           exit 1
 
       # Base account card: header, community, and repository statistics.
-      - uses: gh-metrics/metrics@master
+      - uses: lowlighter/metrics@v3.34
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ env.METRICS_TOKEN }}
           filename: metrics.base.svg
           base: header, community, repositories
           output_action: none
 
-      - uses: gh-metrics/metrics@master
+      - uses: lowlighter/metrics@v3.34
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ env.METRICS_TOKEN }}
           filename: metrics.plugin.isocalendar.fullyear.svg
           base: ""
           plugin_isocalendar: yes
@@ -45,9 +45,9 @@ jobs:
           output_action: none
 
       # Language analysis reads the token owner's events, so it needs the user token.
-      - uses: gh-metrics/metrics@master
+      - uses: lowlighter/metrics@v3.34
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ env.METRICS_TOKEN }}
           filename: metrics.plugin.languages.svg
           base: ""
           plugin_languages: yes
@@ -58,18 +58,18 @@ jobs:
           plugin_languages_analysis_timeout: 15
           output_action: none
 
-      - uses: gh-metrics/metrics@master
+      - uses: lowlighter/metrics@v3.34
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ env.METRICS_TOKEN }}
           filename: metrics.plugin.stars.svg
           base: ""
           plugin_stars: yes
           plugin_stars_limit: 4
           output_action: none
 
-      - uses: gh-metrics/metrics@master
+      - uses: lowlighter/metrics@v3.34
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ env.METRICS_TOKEN }}
           filename: metrics.plugin.habits.svg
           base: ""
           plugin_habits: yes
@@ -79,9 +79,9 @@ jobs:
           config_timezone: Asia/Manila
           output_action: none
 
-      - uses: gh-metrics/metrics@master
+      - uses: lowlighter/metrics@v3.34
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ env.METRICS_TOKEN }}
           filename: metrics.plugin.people.svg
           base: ""
           plugin_people: yes
@@ -89,9 +89,9 @@ jobs:
           plugin_people_limit: 24
           output_action: none
 
-      - uses: gh-metrics/metrics@master
+      - uses: lowlighter/metrics@v3.34
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ env.METRICS_TOKEN }}
           filename: metrics.plugin.reactions.svg
           base: ""
           plugin_reactions: yes
@@ -99,9 +99,9 @@ jobs:
           plugin_reactions_details: percentage
           output_action: none
 
-      - uses: gh-metrics/metrics@master
+      - uses: lowlighter/metrics@v3.34
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ env.METRICS_TOKEN }}
           filename: metrics.plugin.repositories.svg
           base: ""
           plugin_repositories: yes
@@ -109,10 +109,10 @@ jobs:
           output_action: none
 
       # X includes locked badges, so the card is informative even before an achievement is unlocked.
-      - uses: gh-metrics/metrics@master
+      - uses: lowlighter/metrics@v3.34
         with:
           # A user token permits the Gist query GitHub blocks for the Actions integration.
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ env.METRICS_TOKEN }}
           filename: metrics.plugin.achievements.svg
           base: ""
           plugin_achievements: yes
@@ -120,9 +120,9 @@ jobs:
           plugin_achievements_threshold: X
           output_action: none
 
-      - uses: gh-metrics/metrics@master
+      - uses: lowlighter/metrics@v3.34
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ env.METRICS_TOKEN }}
           filename: metrics.plugin.activity.svg
           base: ""
           plugin_activity: yes
@@ -130,10 +130,10 @@ jobs:
           plugin_activity_timestamps: yes
           output_action: none
 
-      - uses: gh-metrics/metrics@master
+      - uses: lowlighter/metrics@v3.34
         with:
           # Repository traffic requires a user token.
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ env.METRICS_TOKEN }}
           filename: metrics.plugin.traffic.svg
           base: repositories
           plugin_traffic: yes
