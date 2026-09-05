@@ -138,6 +138,9 @@ jobs:
           plugin_activity: yes
           plugin_activity_limit: 5
           plugin_activity_timestamps: yes
+          # This repository has a force-push event whose before/after commits
+          # have no common ancestor, which the activity plugin cannot compare.
+          plugin_activity_skipped: Cocoasaur/python-essentials-2
           output_action: none
           plugins_errors_fatal: yes
 
