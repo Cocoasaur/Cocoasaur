@@ -46,6 +46,16 @@ for (const file of FILES) {
     continue
   }
   let svg = readFileSync(file, "utf8")
+  if (
+    file === "metrics.plugin.activity.svg" &&
+    !svg.includes(".activity .commit .sha{display:none}")
+  ) {
+    svg = svg.replace(
+      "</style>",
+      ".activity .commit .sha{display:none}</style>",
+    )
+    writeFileSync(file, svg)
+  }
   for (const [light, dark] of Object.entries(PALETTE)) {
     svg = svg.replace(new RegExp(light + "(?![0-9a-fA-F])", "gi"), dark)
   }
