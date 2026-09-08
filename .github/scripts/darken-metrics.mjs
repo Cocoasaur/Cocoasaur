@@ -40,19 +40,24 @@ const FILES = [
   "metrics.plugin.traffic.svg"
 ]
 
+const ACTIVITY_HEIGHT = 361
+
 for (const file of FILES) {
   if (!existsSync(file)) {
     console.log(`Skipped ${file} (not present)`)
     continue
   }
   let svg = readFileSync(file, "utf8")
-  if (
-    file === "metrics.plugin.activity.svg" &&
-    !svg.includes(".activity .commit .sha{display:none}")
-  ) {
+  if (file === "metrics.plugin.activity.svg") {
+    if (!svg.includes(".activity .commit .sha{display:none}")) {
+      svg = svg.replace(
+        "</style>",
+        ".activity .commit .sha{display:none}</style>",
+      )
+    }
     svg = svg.replace(
-      "</style>",
-      ".activity .commit .sha{display:none}</style>",
+      /(<svg\b[^>]*\bheight=")[^"]+("[^>]*>)/,
+      `$1${ACTIVITY_HEIGHT}$2`,
     )
     writeFileSync(file, svg)
   }
