@@ -78,11 +78,11 @@ Curious about technology, committed to meaningful problem-solving, and always le
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="metrics.plugin.activity.dark.svg" />
-    <img alt="Recent GitHub activity" width="412" src="metrics.plugin.activity.svg" />
+    <img alt="Recent GitHub activity" width="412" align="top" src="metrics.plugin.activity.svg" />
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="metrics.plugin.stars.dark.svg" />
-    <img alt="Recently starred repositories" width="412" src="metrics.plugin.stars.svg" />
+    <img alt="Recently starred repositories" width="412" align="top" src="metrics.plugin.stars.svg" />
   </picture>
 </div>
 
