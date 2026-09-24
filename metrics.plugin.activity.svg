@@ -29,6 +29,64 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
+                                        <div class="sha">#25a4ba2</div>
+                                        <div class="message"></div>
+                                    </div>
+                                </div>
+                                <div class="timestamp">23 Sept 2026, 14:20:08</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed  commits in
+                                        <span class="repo">Cocoasaur/ChillPill-Shell</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">main</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#4d8f315</div>
+                                        <div class="message"></div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#1f3416d</div>
+                                        <div class="message"></div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#489ede7</div>
+                                        <div class="message"></div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#6ff1cd9</div>
+                                        <div class="message"></div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#2f3c609</div>
+                                        <div class="message"></div>
+                                    </div>
+                                </div>
+                                <div class="timestamp">23 Sept 2026, 08:32:00</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed  commits in
+                                        <span class="repo">Cocoasaur/ChillPill-Shell</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">main</span></div>
+                                    <div class="commit">
                                         <div class="sha">#c997603</div>
                                         <div class="message"></div>
                                     </div>
@@ -140,48 +198,6 @@
                                     </div>
                                 </div>
                                 <div class="timestamp">22 Sept 2026, 01:16:50</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed  commits in
-                                        <span class="repo">Cocoasaur/ChillPill-Shell</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#bcf0e50</div>
-                                        <div class="message"></div>
-                                    </div>
-                                </div>
-                                <div class="timestamp">22 Sept 2026, 01:31:58</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed  commits in
-                                        <span class="repo">randrada-usa/ICSLink</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">jl</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#067b9a9</div>
-                                        <div class="message"></div>
-                                    </div>
-                                </div>
-                                <div class="timestamp">21 Sept 2026, 08:17:32</div>
                             </section>
                         </div>
                     </section>
