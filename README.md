@@ -14,18 +14,25 @@ Curious about technology, committed to meaningful problem-solving, and always le
 
 ---
 
-<table width="100%">
-  <tr>
-    <td width="60%" valign="middle">
-      <h2>About me</h2>
-      <p>I'm a Computer Science student from the Philippines driven by curiosity and a hands-on approach to development.</p>
-      <p>Rather than chasing broad real-world issues, I code to solve the specific daily challenges I face, using my curiosity to explore the full range of possibilities behind every problem. I no longer just focus on creating standard solutions I build because I truly love the craft.</p>
-    </td>
-    <td width="40%" align="center" valign="middle">
-      <img src="https://giffiles.alphacoders.com/163/163814.gif" width="100%" alt="Animated Kirby" />
-    </td>
-  </tr>
-</table>
+<!-- about:start — edit the text version below, then run node .github/scripts/render-about.mjs -->
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/about/mobile.dark.svg" />
+  <source media="(max-width: 600px)" srcset="assets/about/mobile.svg" />
+  <source media="(min-width: 768px) and (max-width: 991px) and (prefers-color-scheme: dark)" srcset="assets/about/tablet-portrait.dark.svg" />
+  <source media="(min-width: 768px) and (max-width: 991px)" srcset="assets/about/tablet-portrait.svg" />
+  <source media="(max-width: 1199px) and (prefers-color-scheme: dark)" srcset="assets/about/tablet.dark.svg" />
+  <source media="(max-width: 1199px)" srcset="assets/about/tablet.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/about/desktop.dark.svg" />
+  <img src="assets/about/desktop.svg" width="100%" alt="About me: Computer Science student from the Philippines, with an animated Kirby illustration. Full text below." />
+</picture>
+
+<details>
+  <summary>About me — text version</summary>
+
+  <p>I'm a Computer Science student from the Philippines driven by curiosity and a hands-on approach to development.</p>
+  <p>Rather than chasing broad real-world issues, I code to solve the specific daily challenges I face, using my curiosity to explore the full range of possibilities behind every problem. I no longer just focus on creating standard solutions I build because I truly love the craft.</p>
+</details>
+<!-- about:end -->
 
 ---
 
