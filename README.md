@@ -14,18 +14,15 @@ Curious about technology, committed to meaningful problem-solving, and always le
 
 ---
 
-<table>
-  <tr>
-    <td width="50%" valign="middle">
-      <h2>About me</h2>
-      <p>I'm a Computer Science student from the Philippines driven by curiosity and a hands-on approach to development.</p>
-      <p>Rather than chasing broad real-world issues, I code to solve the specific daily challenges I face, using my curiosity to explore the full range of possibilities behind every problem. I no longer just focus on creating standard solutions I build because I truly love the craft.</p>
-    </td>
-    <td width="50%" align="center" valign="middle">
-      <img src="https://giffiles.alphacoders.com/163/163814.gif" width="360" alt="Animated Kirby" />
-    </td>
-  </tr>
-</table>
+## About me
+
+I'm a Computer Science student from the Philippines driven by curiosity and a hands-on approach to development.
+
+Rather than chasing broad real-world issues, I code to solve the specific daily challenges I face, using my curiosity to explore the full range of possibilities behind every problem. I no longer just focus on creating standard solutions I build because I truly love the craft.
+
+<p align="center">
+  <img src="https://giffiles.alphacoders.com/163/163814.gif" width="360" alt="Animated Kirby" />
+</p>
 
 ---
 
