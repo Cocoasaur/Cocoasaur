@@ -92,6 +92,7 @@ jobs:
           base: ""
           plugin_people: yes
           plugin_people_types: followers, following
+          # Two rows of twelve; format-people.mjs reserves the last circle for +N.
           plugin_people_limit: 24
           output_action: none
           plugins_errors_fatal: yes
