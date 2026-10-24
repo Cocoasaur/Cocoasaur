@@ -14,17 +14,20 @@ Curious about technology, committed to meaningful problem-solving, and always le
 
 ---
 
-## About me
-
-I'm a Computer Science student from the Philippines driven by curiosity and a hands-on approach to development.
-
-Rather than chasing broad real-world issues, I code to solve the specific daily challenges I face, using my curiosity to explore the full range of possibilities behind every problem. I no longer just focus on creating standard solutions I build because I truly love the craft.
-
----
-
-<p align="center">
-  <img src="assets/about/kirby.gif" width="360" alt="Animated Kirby" />
-</p>
+<table width="100%">
+  <tr>
+    <td>
+      <h2>About me</h2>
+      <p>I'm a Computer Science student from the Philippines driven by curiosity and a hands-on approach to development.</p>
+      <p>Rather than chasing broad real-world issues, I code to solve the specific daily challenges I face, using my curiosity to explore the full range of possibilities behind every problem. I no longer just focus on creating standard solutions I build because I truly love the craft.</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="assets/about/kirby.gif" width="360" alt="Animated Kirby" />
+    </td>
+  </tr>
+</table>
 
 ---
 
