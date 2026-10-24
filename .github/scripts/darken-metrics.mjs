@@ -1,4 +1,5 @@
 import {existsSync, readFileSync, writeFileSync} from "node:fs"
+import {formatPeople} from "./format-people.mjs"
 
 const PALETTE = {
   "#ebedf0": "#161b22",
@@ -48,6 +49,10 @@ for (const file of FILES) {
     continue
   }
   let svg = readFileSync(file, "utf8")
+  if (file === "metrics.plugin.people.svg") {
+    svg = formatPeople(svg)
+    writeFileSync(file, svg)
+  }
   if (file === "metrics.plugin.activity.svg") {
     if (!svg.includes(".activity .commit .sha{display:none}")) {
       svg = svg.replace(
